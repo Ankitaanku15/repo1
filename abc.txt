@@ -1,0 +1,20 @@
+er@ip-172-31-17-91 project]$ git log --oneline
+a6feffa Revert "understanding reset command"
+137de55 understanding revert command
+344d795 added ignore file
+092c78f file2 deleted
+06d1c6b file3 added
+53f75fd fie2 added
+7d80d39 diff command understood
+ec8c566 modified file1
+25735d2 added file1
+ea90c08 modified
+257ab71 2nd modification
+dc4236a first commit
+[ec2-user@ip-172-31-17-91 project]$ git reset --hard 257ab71
+HEAD is now at 257ab71 2nd modification
+[ec2-user@ip-172-31-17-91 project]$ git log --oneline
+257ab71 2nd modification
+dc4236a first commit
+[ec2-user@ip-172-31-17-91 project]$
+
